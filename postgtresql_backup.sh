@@ -21,4 +21,4 @@ done
 echo "Backup completed!" >> /tmp/db_backup_info.log
 #mail -s "Backup results" support@scalac.io  < /tmp/db_backup_info.log
 
-su - root -c "cp /var/lib/postgresql/backup/postgresql_backup_*/* /data/backup/postgresql/hire_help/"
+su - root -c "cp /var/lib/postgresql/backup/postgresql_backup_*/* /data/backup/postgresql/hire/"
